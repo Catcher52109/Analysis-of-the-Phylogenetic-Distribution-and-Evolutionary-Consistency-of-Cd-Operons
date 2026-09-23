@@ -4,7 +4,7 @@ This repository contains scripts for identifying homologous proteins, reconstruc
 
 ## 1. PSI-BLAST
 
-The `PSI-Blast` directory contains scripts for homologous protein mining using PSI-BLAST against the NCBI non-redundant protein database and NCBI taxonomy resources.
+The `PSI-Blast` directory contains scripts for homologous protein mining using PSI-BLAST against the NCBI non-redundant protein database and NCBI taxonomy resources.The Non-Redundant Protein Database was downloaded in September 2026.
 
 ### Scripts
 
@@ -13,7 +13,7 @@ The `PSI-Blast` directory contains scripts for homologous protein mining using P
 - `CadG.py`
 - `CadS.py`
 
-These scripts are used to search for homologous proteins of CadJ, PepSY, CadG, and CadS, respectively, using PSI-BLAST.
+These scripts run PSI-BLAST against the locally downloaded NR database to retrieve homologous proteins for CadJ, PepSY, CadG, and CadS, respectively.
 
 For each homologous protein, the scripts retrieve and organize information including:
 
@@ -36,7 +36,7 @@ This script performs physical clustering and synteny analysis of homologous Cad 
 
 Its main functions include:
 
-- Identifying physically clustered Cad homologs
+- Physically clustered Cad homologs were identified using a 100-bp distance threshold.
 - Detecting strains carrying similar operon architectures
 - Characterizing the gene composition of candidate operons
 - Assessing local gene order and microsynteny
@@ -177,4 +177,6 @@ Cad gene-tree reconstruction      GyrB tree reconstruction
                       |
                       v
    Normalized RF distance and Quartet similarity
-> **Note:** The code in this repository was developed with assistance from Gemini.
+<blockquote>
+  <strong>Note:</strong> The code in this repository was developed with assistance from Gemini.
+</blockquote>
