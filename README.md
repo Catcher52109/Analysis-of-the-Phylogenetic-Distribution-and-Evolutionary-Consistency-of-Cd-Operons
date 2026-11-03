@@ -178,5 +178,3 @@ Cad gene-tree reconstruction      GyrB tree reconstruction
                       v
    Normalized RF distance and Quartet similarity
 <blockquote>
-  <strong>Note:</strong> The code in this repository was developed with assistance from Gemini.
-</blockquote>
